@@ -8,7 +8,8 @@
   }, 
   "content_scripts": [
   {
-    "js": ["content.js"],
+    "matches": ["<all_urls>"],
+    "js": ["popup.js"],
     "run_at": "document_idle"
   }
 ]
